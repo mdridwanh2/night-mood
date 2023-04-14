@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+ul, li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#wrapper{
+    display: flex;
+}
+
+h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 0 20px;
+    color: #3b0574;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+button:hover .sun{
+    margin-top: -100%;
+
+}
+
+button .sun,
+button .moon{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+button .moon{
+    background-color: rgb(22, 10, 38);
+    color: #ecebeb;
+}
+button .sun{
+    background-color: rgb(230, 229, 228);
+    color: rgb(5, 0, 0);
+}
